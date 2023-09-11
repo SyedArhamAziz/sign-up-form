@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("Norse-Bold.otf");
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    margin: 0;
+}
+
+#background {
+    position: relative;
+    background-image:url('leaves.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 25vh;
+    height: 115vh;
+    width: 100vw;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    height: 20vh;
+}
+
+#logo {
+    height: 20vh;
+}
+
+#odin {
+    color: white;
+    font-family: "Norse Bold";
+    font-size: 15vh;
+}
+
+#credit {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+#credit a {
+    color: white;
+}
+
+#main {
+    padding-top: 25vh;
+    background-color: #F9FAFB;
+}
+
+#main>div {
+    padding-left: 50px;
+}
+
+#form-container {
+    background-color: white;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+#message {
+    font-size: x-large;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 70px;
+}
+
+.row {
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 10px;
+}
+
+.label-type-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    box-shadow: none;
+    text-shadow: none;
+    border-width: 1px;
+    border-color: #E5E7EB;
+    outline:none;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+label {
+    font-size: 15px;
+    color: #202020;
+}
+
+button {
+    background-color: #596D48;
+    height: 50px;
+    width: 230px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#have-account>a {
+    font-weight: bold;
+    text-decoration-line: none;
+    font-style: normal;
+    color: #596D48;
+}
